@@ -21,5 +21,6 @@ urlpatterns = [
     path('api_auth/', include('rest_framework.urls')),
     path('users/', include('library.users.urls')),
     path('books/', include('library.books.urls')),
+    path('editorial/', include('library.editorial.urls')),
 ]
 
